@@ -60,15 +60,6 @@ This project compresses an MLP trained on MNIST (flattened images) while trying 
 
 ---
 
-## Current Status
-
-- Baseline training and pruning are working.
-- Quantization is implemented.
-- Huffman coding is done on model weights.
-- Memory footprint is calculated theoretically.
-- **Next:** Proper `.npz` serialization + inference directly from compressed files.
-
----
 
 ## Goal
 
